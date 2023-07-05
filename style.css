@@ -1,0 +1,68 @@
+body {
+  margin: auto;
+  background : linear-gradient(to right, rgb(64, 101, 87), rgb(181, 100, 9)),
+    linear-gradient(to right, rgb(128, 0, 43), rgb(223, 71, 10));
+  height: 100%;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgb(92, 31, 31);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contain {
+  display: flex;
+  background : linear-gradient(to right, rgb(6, 86, 140), rgb(189, 46, 74)),
+    linear-gradient(to right, rgb(228, 18, 88), rgb(13, 59, 28));
+  margin-top: 170px;
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+  border-radius: 38px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgb(92, 31, 31);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#num1 {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  color: rgb(5, 64, 40);
+  font-weight: 600;
+}
+#num2 {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  color: rgb(5, 64, 40);
+  font-weight: 600;
+}
+
+.operator {
+  padding: 10px;
+  border-radius: 15px;
+  background : linear-gradient(to right, rgb(161, 85, 85), rgb(208, 45, 9)),
+    linear-gradient(to right, rgb(171, 18, 69), rgb(231, 9, 105));
+  box-shadow: 3px 3px 3px rgb(92, 31, 31);
+}
+#result {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  color: rgb(192, 214, 205);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+form {
+  /* margin-top: 30px; */
+  text-align: center;
+  align-items: center;
+}
